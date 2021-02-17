@@ -1,0 +1,231 @@
+body{
+margin: 1%;
+padding: 0%;
+}
+section a{
+    text-decoration: none;
+    
+}
+button{
+    cursor: pointer;
+}
+a:hover{
+font-weight:  900;
+color: black;
+}
+
+i{
+ cursor: pointer;   
+}
+span:hover{
+cursor: pointer;
+padding-left: 5%;
+}
+
+.menu{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+    height: 27px;
+    margin-bottom: 10px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section .menu a{
+    font-size: 14px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+section .menu img{
+    width: 23%;
+}
+.back{
+    height: 406px;
+    background-image: url(slide1.png);
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+.back .btnshop{
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  width: 10%;
+  height: 29px;
+  border: none;
+}
+.imagpara1, .imagpara2, .imagpara3, .imagpara4{
+    width: 21%;
+    padding: 13px 0 0;
+}
+
+.main2{
+    padding: 13px 0 0;
+}
+.bgmain2{
+    width: 100%;
+    height: 400px;
+    background-image: url(xbox.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+section div .xbox{
+    font-size: 23px;
+    margin-left: 4%;
+}
+.btnjusq{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 17%;
+    height: 7%;
+}
+
+.imgpara1main3, .imgpara2main3, .imgpara3main3, .imgpara4main3{
+    width: 21%;
+}
+.imagelorem4{
+    width: 100%;
+}
+.main3{
+    padding: 13px 0 0;
+}
+.main4{
+    width: 100%;
+    height: 353px;
+    background-image: url(carbon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 13px;
+}
+.paramain4{
+    width: 41%;
+}
+.commitingparabtn{
+    margin-left: 4%;
+}
+.btnmain4{
+    width: 9%;
+    height: 29px;
+    border: none;
+}
+
+.follow{
+    display: flex;
+}
+.fab{
+    margin-top: 13px;
+    margin-left: 1%;
+    font-size: 34px;
+}
+
+.fa-facebook-square:hover{
+    color: blue;
+}
+
+
+@media (max-width:640px){
+
+
+.menu{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+}
+section .menu a{
+    display: contents;
+    font-size: 13px;
+}
+.fasosn{
+    height: 15px;
+    font-size: 25px;
+    display: flex;
+    align-items: end;
+}
+section .menu img{
+    width: 44%;
+}
+.main1{
+        display: flex;
+        flex-direction: column;
+}
+.main3{
+    display: flex;
+        flex-direction: column;
+}
+.back{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 9px;
+}
+.back .btnshop{
+    width: 45%;
+}
+.imagpara1, .imagpara2, .imagpara3, .imagpara4{
+    width: 100%;
+}
+
+.imgpara1main3, .imgpara2main3, .imgpara3main3, .imgpara4main3{
+    width: 100%;
+    padding: 13px 0 0;
+}
+.images{
+    width: 100%;
+}
+.bgmain2{
+        height: 100px;
+}
+section div .xbox{
+    font-size: 11px;
+    margin: inherit;
+}
+.btnjusq{
+    width: 41%;
+    height: 25px;
+    font-size: 8px;
+    margin-left: inherit;
+}
+.main4{
+    height: 227px;
+}
+.paramain4{
+    width: 100%;
+    font-size: 12px;
+}
+h3{
+    font-size: 17px
+}
+.btnmain4{
+    width: 42%;
+}
+/* .imgpara2main3{
+    padding: 13px 0 0;
+}
+.imgpara1main3{
+    padding: 13px 0 0;
+} */
+}
